@@ -1,0 +1,54 @@
+{
+  "doc": {
+    "properties": {
+      "name": {
+        "type": "completion",
+        "fields": {
+          "completion": {
+            "type": "completion"
+          }
+        }
+      },
+      "docId": {
+        "type": "text",
+        "index": true
+      },
+      "votes": {
+        "type": "integer",
+        "index": true
+      },
+      "viewCount": {
+        "type": "integer",
+        "index": true
+      },
+      "singers": {
+        "type": "text"
+      },
+      "composed": {
+        "type": "text",
+        "index": true
+      },
+      "lyric": {
+        "type": "text",
+        "index": true
+      },
+      "topic": {
+        "type": "text",
+        "index": true
+      },
+      "similar": {
+        "type": "text"
+      },
+      "country": {
+        "type": "text",
+        "index": true
+      },
+      "tags": {
+        "type": "text"
+      },
+      "suggest":{
+        "type": "completion"
+      }
+    }
+  }
+}

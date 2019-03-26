@@ -1,0 +1,57 @@
+{
+  "doc": {
+    "properties": {
+      "name": {
+        "type": "completion",
+        "fields": {
+          "completion": {
+            "type": "completion"
+          }
+        }
+      },
+      "englishName": {
+        "type": "completion",
+        "fields": {
+          "completion": {
+            "type": "completion"
+          }
+        }
+      },
+      "tags": {
+        "type": "text",
+        "index": true
+      },
+      "docId": {
+        "type": "text",
+        "index": true
+      },
+      "rating": {
+        "type": "float",
+        "index": true
+      },
+      "votes": {
+        "type": "integer",
+        "index": true
+      },
+      "viewCount": {
+        "type": "integer",
+        "index": true
+      },
+      "country": {
+        "type": "text",
+        "index": true
+      },
+      "year": {
+        "type": "integer",
+        "index": true
+      },
+      "domain": {
+        "type": "text",
+        "index": true
+      },
+      "suggest": {
+        "type": "completion"
+      }
+    }
+  }
+}

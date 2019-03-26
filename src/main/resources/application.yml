@@ -1,0 +1,28 @@
+app:
+  clients:
+    hostname: 10.2.22.140
+    scheme: http
+    httpPort: 9200
+    containerPort: 9200
+    transportPort: 9300
+  elastic:
+    imageUrl: docker.elastic.co/elasticsearch/elasticsearch
+    version: 6.5.4
+    credentialUsername: elastic
+    credentialPassword: changeme
+  index:
+    cluster: search-home
+    names:
+    - movies
+    - musics
+    type: doc
+    shard: 5
+    replica: 1
+    from: 0
+    size: 20
+    timeout: 60
+spring:
+  profiles:
+    active: production
+server:
+  port: 8092
