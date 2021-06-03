@@ -1,0 +1,5 @@
+17:13:18.934 [main] INFO  c.h.search.HomeSearchEsApplication - Starting HomeSearchEsApplication on soncd with PID 40948 (/home/soncd/Downloads/search/target/classes started by soncd in /home/soncd/Downloads/search)
+>17:13:18.937 [main] DEBUG c.h.search.HomeSearchEsApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+>17:13:18.949 [main] INFO  c.h.search.HomeSearchEsApplication - The following profiles are active: production
+>17:13:19.807 [main] DEBUG c.h.s.c.SpringCorsFilter$$EnhancerBySpringCGLIB$$f089ccd - Filter 'springCorsFilter' configured for use
+>

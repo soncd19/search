@@ -10,9 +10,9 @@ services:
     ports:
       - 9200:9200
   elasticclient:
-    image: get:latest
+    image: search:latest
     ports:
-      - 8080:8080
+      - 8092:8092
     container_name: elastic_client
     depends_on:
       - elasticserver

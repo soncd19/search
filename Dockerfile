@@ -14,6 +14,6 @@ COPY /wait-for-container.sh /wait-for-container.sh
 
 RUN mvn clean install -Dmaven.test.skip=true
 
-EXPOSE 8080 9200 9300
+EXPOSE 8092
 
 ENTRYPOINT ["sh", "/wait-for-container.sh"]
